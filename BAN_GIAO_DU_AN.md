@@ -350,7 +350,7 @@ Mỗi biểu đồ trong `figures/` có tiền tố là số của notebook sinh
 
 - Đường dẫn trong code là đường dẫn tương đối, tính từ thư mục `notebooks/`.
 - `RANDOM_STATE = 42` ở mọi chỗ có yếu tố ngẫu nhiên.
-- Ô markdown viết bằng tiếng Việt, gồm mục đích và nhận xét kết quả của từng bước, có thể chép thẳng vào báo cáo. Tên biến, tên hàm và chú thích code viết bằng tiếng Anh.
+- Ô markdown viết bằng tiếng Việt, gồm mục đích và nhận xét kết quả của từng bước, có thể chép thẳng vào báo cáo. Tên biến và tên hàm viết bằng tiếng Anh. Code không có chú thích (comment); mọi giải thích nằm trong các ô markdown.
 - Biểu đồ được lưu bằng hàm `save_fig()` khai báo ở đầu mỗi notebook.
 - Màu của mỗi cụm cố định trong mọi biểu đồ: VIP xanh dương, Khách mới cam, Có nguy cơ xanh lá, Ngủ đông vàng. Nếu thêm biểu đồ mới, nên giữ đúng màu này.
 
